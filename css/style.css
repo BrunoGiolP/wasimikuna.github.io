@@ -351,6 +351,20 @@ footer .copywrite{
     color: white;
 }
 
+#uno .tipologia .otros_activada{
+  background: #ED4167;
+  background-image: url(../img/otros_b.png);
+  background-size: 60%;
+  background-position: center 12px;
+  background-repeat: no-repeat;
+}
+
+#uno .tipologia .otros_activada::after{
+  color: white;
+}
+
+
+
 .upload{
     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='4' stroke-dasharray='21' stroke-dashoffset='23' stroke-linecap='butt'/%3e%3c/svg%3e");
     display: flex;
