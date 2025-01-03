@@ -136,6 +136,7 @@
 <!-- The Modal -->
 <div class="modal registro_incidencia_1" id="myModal">
   <div class="modal-dialog">
+
     <div class="modal-content uno activo" id="uno">
 
       <!-- Modal Header -->
@@ -174,6 +175,8 @@
       </div>
 
     </div>
+
+
     <div class="modal-content dos" id="dos">
 
       <!-- Modal Header -->
@@ -225,6 +228,8 @@
       </div>
 
     </div>
+
+
     <div class="modal-content tres" id="tres">
 
       <!-- Modal Header -->
@@ -272,10 +277,36 @@
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button class="btn_siguiente" type="button">Finalizar</button>
+        <button class="btn_siguiente" type="button" onclick="finalizar()">Finalizar</button>
       </div>
 
     </div>
+
+
+    <div class="modal-content finalizar" id="finalizar" onclick="finalizar()">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Registro Incidencia</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+
+      
+
+      <div class="modal-body">
+        Se registro la incidencia con éxito
+      </div>    
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button class="btn_siguiente" type="button" onclick="finalizar()">Cerrar</button>
+      </div>
+
+    </div>
+
+
     
   </div>
 </div>
