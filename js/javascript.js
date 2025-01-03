@@ -65,16 +65,16 @@ function siguiente() {
    var tipo_salud = document.getElementById("salud");
    var tipo_calidad = document.getElementById("calidad");
    var tipo_otros = document.getElementById("otros");
-   tipo_salud.classList.add("tipo_activada");
-   tipo_calidad.classList.remove("tipo_activada");
-   tipo_otros.classList.remove("tipo_activada");
+   tipo_salud.classList.add("salud_activada");
+   tipo_calidad.classList.remove("salud_activada");
+   tipo_otros.classList.remove("salud_activada");
  }
 
  function calidad(){
    var tipo_salud = document.getElementById("salud");
    var tipo_calidad = document.getElementById("calidad");
    var tipo_otros = document.getElementById("otros");
-   tipo_salud.classList.remove("tipo_activada");
-   tipo_calidad.classList.add("tipo_activada");
-   tipo_otros.classList.remove("tipo_activada");
+   tipo_salud.classList.remove("calidad_activada");
+   tipo_calidad.classList.add("calidad_activada");
+   tipo_otros.classList.remove("calidad_activada");
  }
