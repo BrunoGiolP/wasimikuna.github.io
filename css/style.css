@@ -300,6 +300,10 @@ footer .copywrite{
     color: white;
 }
 
+#uno .tipologia .tipo_activada{
+  background: #ED4167;
+}
+
 #uno .tipologia .otros::after {
     content: 'Otros';
     position: absolute;
