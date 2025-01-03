@@ -18,7 +18,7 @@ function siguiente() {
    var modal2 = document.getElementById("tres");
    modal2.classList.remove("activo");
    var modal4 = document.getElementById("fin");
-   modal4 = document.add("activo");
+   modal4.classList.add("activo");
 }
 
 
