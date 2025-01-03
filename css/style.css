@@ -79,6 +79,10 @@ body{
   align-items: center;
 }
 
+.mapa h2 span{
+  color: #ED4167;
+}
+
 .mapa iframe{
   height: 70vh;
   width: 100%;
