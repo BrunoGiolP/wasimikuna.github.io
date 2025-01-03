@@ -69,3 +69,12 @@ function siguiente() {
    tipo_calidad.classList.remove("tipo_activada");
    tipo_otros.classList.remove("tipo_activada");
  }
+
+ function calidad(){
+   var tipo_salud = document.getElementById("tipologia_salud");
+   var tipo_calidad = document.getElementById("tipologia_calidad");
+   var tipo_otros = document.getElementById("tipologia_otros");
+   tipo_salud.classList.remove("tipo_activada");
+   tipo_calidad.classList.add("tipo_activada");
+   tipo_otros.classList.remove("tipo_activada");
+ }
