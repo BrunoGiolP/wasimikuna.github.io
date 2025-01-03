@@ -12,6 +12,17 @@ function siguiente() {
     modal2.classList.add("activo");
  }
 
+ function fin() {
+   var modal1 = document.getElementById("dos");
+   modal1.classList.remove("activo");
+   var modal2 = document.getElementById("tres");
+   modal2.classList.remove("activo");
+   var modal4 = document.getElementById("fin");
+   modal4 = document.add("activo");
+}
+
+
+
  function volver1() {
     var modal1 = document.getElementById("uno");
     modal1.classList.add("activo");
