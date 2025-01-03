@@ -83,7 +83,7 @@ function siguiente() {
    tipo_otros.classList.remove("otros_activada");
  }
 
- function calidad(){
+ function otros(){
    var tipo_salud = document.getElementById("salud");
    var tipo_calidad = document.getElementById("calidad");
    var tipo_otros = document.getElementById("otros");
