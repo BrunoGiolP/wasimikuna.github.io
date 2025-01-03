@@ -108,6 +108,7 @@ footer .copywrite{
 .botones .boton_principal{
   width: 100px;
   height: 100px;
+  cursor: pointer;
   background-color: #ED4167;
   border-radius: 100%;
   background-image: url("../img/alert.svg");
