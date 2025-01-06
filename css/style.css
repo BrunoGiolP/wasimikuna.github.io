@@ -192,6 +192,10 @@ footer .copywrite{
     width: 90%;
     padding: 0;
   }
+
+  header h1 img{
+    width: 100%;
+  }
 }
 
 .crear_incidencia{
@@ -538,6 +542,8 @@ select{
     border-radius: 0 5px 5px 0;
 }
 
+
+
 /* Toggle button */
 
 .switch {
@@ -615,4 +621,8 @@ select{
     background: rgb(243, 243, 243);
     
   }
+
+
+
+   /* MODAL 4 */
 
