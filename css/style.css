@@ -535,16 +535,16 @@ select{
     background-color: #ED4167 !important;
   }
 
-.tres form .doc_identidad{
+.modal-content form .doc_identidad{
     display: flex;
 }
   
-.tres form #T_Doc{
+.modal-content form #T_Doc{
     width: 30%;
     border-radius: 5px 0 0 5px;
 }
 
-.tres form .num_documento{
+.modal-content form .num_documento{
     width: 70%;
     border-radius: 0 5px 5px 0;
 }
