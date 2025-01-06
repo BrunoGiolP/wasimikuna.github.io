@@ -19,6 +19,13 @@ function siguiente() {
    modal4.classList.add("activo");
 }
 
+function reinicio() {
+   var modal4 = document.getElementById("fin");
+   modal4.classList.remove("activo");
+}
+
+
+
 
 
  function volver1() {
