@@ -12,9 +12,7 @@ function siguiente() {
     modal2.classList.add("activo");
  }
 
- function fin() {
-   var modal1 = document.getElementById("dos");
-   modal1.classList.remove("activo");
+ function finalizar() {
    var modal2 = document.getElementById("tres");
    modal2.classList.remove("activo");
    var modal4 = document.getElementById("fin");
