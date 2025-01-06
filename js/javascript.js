@@ -20,6 +20,8 @@ function siguiente() {
 }
 
 function reinicio() {
+   var modal1 = document.getElementById("uno");
+    modal1.classList.add("activo");
    var modal4 = document.getElementById("fin");
    modal4.classList.remove("activo");
 }
