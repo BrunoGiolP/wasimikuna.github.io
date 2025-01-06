@@ -520,18 +520,18 @@ select{
 
   /* MODAL 3 */
 
-  .tres .step2{
+  .modal-content .step2{
     background-color: #ED4167 !important;
   }
 
-  .tres .step2::before{
+  .modal-content .step2::before{
     background-color: #ED4167 !important;
   }
 
-  .tres .step2::after{
+  .modal-content .step2::after{
     background-color: #ED4167 !important;
   }
-  .tres .step3{
+  .modal-content .step3{
     background-color: #ED4167 !important;
   }
 
