@@ -633,3 +633,7 @@ select{
 
    /* MODAL 4 */
 
+  .fin .modal-body{
+    text-align: center;
+    font-size: 25px;
+  }
