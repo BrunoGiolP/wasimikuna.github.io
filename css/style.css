@@ -196,6 +196,12 @@ footer .copywrite{
   header h1 img{
     width: 99%;
   }
+
+  nav ul {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    }
 }
 
 .crear_incidencia{
