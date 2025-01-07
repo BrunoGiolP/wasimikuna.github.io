@@ -27,9 +27,6 @@ function reinicio() {
 }
 
 
-
-
-
  function volver1() {
     var modal1 = document.getElementById("uno");
     modal1.classList.add("activo");
@@ -112,3 +109,15 @@ function reinicio() {
    tipo_otros.classList.add("otros_activada");
  }
 
+
+
+
+
+
+function resultado_busqueda(){
+   var buscar_documento = document.getElementById("buscar_documento");
+   var resultado_busqueda = document.getElementById("resultado_busqueda");
+   buscar_documento.classList.remove("activo");
+   resultado_busqueda.classList.add("activo");
+
+}
