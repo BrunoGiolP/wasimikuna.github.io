@@ -681,6 +681,12 @@ select{
   margin-top: 20px;
 }
 
+.tipo_filter div::after{
+  width: 90%;
+  margin: auto;
+  height: 5px;
+}
+
 .tipo_filter .danger span{
   color: #ED4167;
 }
@@ -697,3 +703,4 @@ select{
  background-color: #ED4167;
  color: white;
 }
+
