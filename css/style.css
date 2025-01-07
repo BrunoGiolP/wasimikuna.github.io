@@ -681,6 +681,10 @@ select{
   margin-top: 20px;
 }
 
+.tipo_filter .danger{
+  color: #ED4167;
+}
+
 .tipo_filter div span {
   border: 1px solid #ed4167;
   padding: 10px;
