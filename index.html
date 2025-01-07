@@ -314,6 +314,39 @@
 <div class="modal buscar_incidencia" id="myModal2">
   <div class="modal-dialog">
 
+    <div class="modal-content buscar_documento activo" id="buscar_documento">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Buscar Incidencia</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       
+
+        <form action="">
+          <div class="doc_identidad">
+            <select id="T_Doc" class="campos p3" name="T_Doc">
+              <option value="Region">T. Doc.</option>
+              <option value="DNI">DNI</option>
+              <option value="CE">C.E.</option>
+            </select>
+            <input id="num_documento" class="campos num_documento p3" type="number" placeholder="Numero de Documento">
+          </div>
+          
+
+        </form>
+      </div>    
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" onclick="incidencias_registradas()">Ver</button>
+      </div>
+
+    </div>
+
     <div class="modal-content uno activo" id="uno">
 
       <!-- Modal Header -->
@@ -342,12 +375,10 @@
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" onclick="siguiente()">Siguiente</button>
+        <button type="button" onclick="incidencias_registradas()">Ver</button>
       </div>
 
     </div>
-
-
     
 
 
