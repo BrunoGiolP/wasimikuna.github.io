@@ -669,3 +669,16 @@ select{
     width: 200px;
     height: 50px;
   }
+
+  .tipo_filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+  .tipo_filter div {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
