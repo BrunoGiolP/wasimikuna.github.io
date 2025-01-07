@@ -716,5 +716,7 @@ select{
   position: relative;
 }
 
-
+.lista_incidencias{
+  margin-top: 20px;
+}
 
