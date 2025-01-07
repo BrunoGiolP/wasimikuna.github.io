@@ -681,13 +681,6 @@ select{
   margin-top: 20px;
 }
 
-.resultado_busqueda ol li::after{
-  width: 90%;
-  height: 1px;
-  background: #b9b9b9;
-  content: "";
-  display: block;
-}
 
 .tipo_filter .danger span{
   color: #ED4167;
@@ -705,4 +698,23 @@ select{
  background-color: #ED4167;
  color: white;
 }
+
+
+.resultado_busqueda ol li::after{
+  width: 90%;
+  height: 1px;
+  background: #b9b9b9;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.resultado_busqueda li {
+  padding: 10px;
+  position: relative;
+}
+
+
 
