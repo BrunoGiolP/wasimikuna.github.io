@@ -681,7 +681,7 @@ select{
   margin-top: 20px;
 }
 
-.tipo_filter .danger{
+.tipo_filter .danger span{
   color: #ED4167;
 }
 
