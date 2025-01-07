@@ -665,10 +665,7 @@ select{
     background: transparent;
   }
 
-  .tipo_filter div{
-    width: 200px;
-    height: 50px;
-  }
+
 
   .tipo_filter {
     display: flex;
