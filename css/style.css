@@ -664,3 +664,8 @@ select{
   .buscador span{
     background: transparent;
   }
+
+  .tipo_filter div{
+    width: 200px;
+    height: 50px;
+  }
