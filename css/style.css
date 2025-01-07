@@ -640,9 +640,15 @@ select{
 
 
 
-   /* MODAL 4 */
+   /* MODAL BUSQUEDA */
 
   .fin .modal-body{
     text-align: center;
     font-size: 25px;
+  }
+
+  /* MODAL RESUKTADO */
+
+  .detalle_usuario{
+    font-size: 0.7em;
   }
