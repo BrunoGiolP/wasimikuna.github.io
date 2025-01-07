@@ -681,7 +681,7 @@ select{
   margin-top: 20px;
 }
 
-.tipo_filter ol li::after{
+.resultado_busqueda ol li::after{
   width: 90%;
   height: 1px;
   background: #b9b9b9;
