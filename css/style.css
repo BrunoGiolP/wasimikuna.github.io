@@ -681,7 +681,7 @@ select{
   margin-top: 20px;
 }
 
-.tipo_filter div ol li::after{
+.tipo_filter ol li::after{
   width: 90%;
   margin: auto;
   height: 5px;
