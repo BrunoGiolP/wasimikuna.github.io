@@ -720,3 +720,8 @@ select{
   margin-top: 20px;
 }
 
+.lista_incidencias li svg{
+  position: absolute;
+  right: 20px;
+}
+
