@@ -689,6 +689,8 @@ select{
   border: 1px solid #ed4167;
   padding: 10px;
   border-radius: 10px;
+  width: 90px;
+  text-align: center;
 }
 
 .tipo_filter .active span{
