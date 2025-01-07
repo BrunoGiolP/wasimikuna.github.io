@@ -672,10 +672,16 @@ select{
     justify-content: space-between;
 }
 
-  .tipo_filter div {
-    display: flex;
-    height: 50px;
-    width: 200px;
-    justify-content: center;
-    align-items: center;
+.tipo_filter div {
+  display: flex;
+  height: 50px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tipo_filter div span {
+  border: 1px solid #ed4167;
+  padding: 10px;
+  border-radius: 10px;
 }
