@@ -647,8 +647,20 @@ select{
     font-size: 25px;
   }
 
-  /* MODAL RESUKTADO */
+  /* MODAL RESULTADO */
 
   .detalle_usuario{
     font-size: 0.7em;
+  }
+
+  .buscador{
+    border: 1px solid #dadada;
+  }
+
+  .buscador input{
+    border: 0;
+  }
+
+  .buscador span{
+    background: transparent;
   }
