@@ -678,10 +678,16 @@ select{
   width: 200px;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .tipo_filter div span {
   border: 1px solid #ed4167;
   padding: 10px;
   border-radius: 10px;
+}
+
+.tipo_filter .active span{
+ background-color: #ED4167;
+ color: white;
 }
