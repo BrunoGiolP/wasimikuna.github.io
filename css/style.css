@@ -37,6 +37,8 @@ body{
 .navbar1{
   position: fixed;
   top: 0;
+  z-index: 99999999;
+  background-color: white;
 }
 
  nav ul{
