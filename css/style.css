@@ -573,13 +573,7 @@ select{
     background-color: #ED4167 !important;
   }
 
-  .modal-content .step2::before{
-    background-color: #ED4167 !important;
-  }
-
-  .modal-content .step2::after{
-    background-color: #ED4167 !important;
-  }
+  
   .tres .step3{
     background-color: #ED4167 !important;
   }
