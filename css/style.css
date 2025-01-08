@@ -269,7 +269,7 @@ input[type=number] { -moz-appearance:textfield; }
   .navbar1{
     position: fixed;
     top: 0;
-    z-index: 99999999;
+    z-index: 999;
     background-color: white;
     width: 100%;
   }
