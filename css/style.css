@@ -704,6 +704,13 @@ select{
   overflow-y: auto;
 }
 
+.resultado_busqueda .modal-title{
+  display: flex;
+}
+
+.resultado_busqueda .modal-title .return{
+  padding-right: 20px;
+}
 
 .resultado_busqueda ol li::after{
   width: 105%;
