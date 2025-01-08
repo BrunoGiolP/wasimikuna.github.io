@@ -142,3 +142,13 @@ function detalle_busqueda_incidencia(){
    resultado_busqueda.classList.remove("activo");
    detalle_busqueda_incidencia.classList.add("activo");
 }
+
+window.onscroll = function() {
+   console.log(window.scrollY);
+   var nav = document.getElementById('nav');
+   if ( window.scrollY > 100 ) {
+       nav.classList.add("navbar1");
+   } else {
+       nav.classList.remove("navbar1");
+   }
+}
