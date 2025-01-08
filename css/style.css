@@ -701,7 +701,7 @@ select{
 
 
 .resultado_busqueda ol li::after{
-  width: 90%;
+  width: 105%;
   height: 1px;
   background: #b9b9b9;
   content: "";
@@ -714,6 +714,7 @@ select{
 .resultado_busqueda li {
   padding: 10px;
   position: relative;
+  width: 92%;
 }
 
 .lista_incidencias{
@@ -722,6 +723,6 @@ select{
 
 .lista_incidencias li svg{
   position: absolute;
-  right: 20px;
+  right: -15px;
 }
 
