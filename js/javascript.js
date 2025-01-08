@@ -121,3 +121,11 @@ function resultado_busqueda(){
    resultado_busqueda.classList.add("activo");
 
 }
+
+function salir_bsuqueda(){
+   var buscar_documento = document.getElementById("buscar_documento");
+   var resultado_busqueda = document.getElementById("resultado_busqueda");
+   buscar_documento.classList.add("activo");
+   resultado_busqueda.classList.remove("activo");
+
+}
