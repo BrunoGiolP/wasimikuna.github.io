@@ -57,6 +57,10 @@ body{
   height: 70vh;
 }
 
+.redes_sociales{
+  scroll-margin-top: 200px;
+}
+
 .redes_sociales img{
   width: 100%;
 }
@@ -80,7 +84,7 @@ body{
 }
 
 .mapa{
-  scroll-margin-top: 100px;
+  scroll-margin-top: 200px;
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
