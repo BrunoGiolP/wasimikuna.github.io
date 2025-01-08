@@ -720,6 +720,7 @@ select{
   padding: 10px;
   position: relative;
   width: 92%;
+  cursor: pointer;
 }
 
 .resultado_busqueda li:hover{
