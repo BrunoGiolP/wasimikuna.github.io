@@ -699,6 +699,11 @@ select{
  color: white;
 }
 
+.resultado_busqueda ol{
+  height: 500px;
+  overflow-y: auto;
+}
+
 
 .resultado_busqueda ol li::after{
   width: 105%;
