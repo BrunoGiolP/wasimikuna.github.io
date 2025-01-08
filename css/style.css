@@ -710,6 +710,7 @@ select{
 
 .resultado_busqueda .modal-title .return{
   padding-right: 20px;
+  cursor: pointer;
 }
 
 .resultado_busqueda ol li::after{
