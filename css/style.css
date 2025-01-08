@@ -717,6 +717,10 @@ select{
   width: 92%;
 }
 
+.resultado_busqueda li:hover{
+  background-color: #f7f7f7;
+}
+
 .lista_incidencias{
   margin-top: 20px;
 }
