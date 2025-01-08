@@ -573,6 +573,14 @@ select{
     background-color: #ED4167 !important;
   }
 
+  .tres .step2::before{
+    background-color: #ed4167;
+  }
+
+  .tres step2::after{
+    background-color: #ed4167;
+  }
+
   
   .tres .step3{
     background-color: #ED4167 !important;
