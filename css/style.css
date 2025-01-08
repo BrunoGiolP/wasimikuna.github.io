@@ -26,7 +26,11 @@ body{
  nav{
   display: flex;
   justify-content: center;
-  
+  background: #e62b77;
+  color: white;
+  width: 100%;
+  z-index: 99999999;
+  height: 70px;
 }
 
  nav ul{
@@ -38,10 +42,11 @@ body{
 
  nav li{
   list-style: none;
+  color: white;
 }
 
  nav li a{
-  color: #5B5B5B;
+  color: white;
   text-decoration: none;
 }
 
