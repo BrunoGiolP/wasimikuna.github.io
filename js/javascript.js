@@ -115,17 +115,30 @@ function reinicio() {
 
 
 function resultado_busqueda(){
+   var detalle_busqueda_incidencia = document.getElementById("detalle_busqueda_incidencia");
    var buscar_documento = document.getElementById("buscar_documento");
    var resultado_busqueda = document.getElementById("resultado_busqueda");
    buscar_documento.classList.remove("activo");
    resultado_busqueda.classList.add("activo");
+   detalle_busqueda_incidencia.classList.remove("activo");
 
 }
 
 function salir_bsuqueda(){
+   var detalle_busqueda_incidencia = document.getElementById("detalle_busqueda_incidencia");
    var buscar_documento = document.getElementById("buscar_documento");
    var resultado_busqueda = document.getElementById("resultado_busqueda");
    buscar_documento.classList.add("activo");
    resultado_busqueda.classList.remove("activo");
+   detalle_busqueda_incidencia.classList.remove("activo");
 
+}
+
+function detalle_busqueda_incidencia(){
+   var detalle_busqueda_incidencia = document.getElementById("detalle_busqueda_incidencia");
+   var buscar_documento = document.getElementById("buscar_documento");
+   var resultado_busqueda = document.getElementById("resultado_busqueda");
+   buscar_documento.classList.remove("activo");
+   resultado_busqueda.classList.remove("activo");
+   detalle_busqueda_incidencia.classList.add("activo");
 }
