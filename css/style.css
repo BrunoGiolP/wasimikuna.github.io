@@ -34,13 +34,7 @@ body{
   align-items: center;
 }
 
-.navbar1{
-  position: fixed;
-  top: 0;
-  z-index: 99999999;
-  background-color: white;
-  width: 100%;
-}
+
 
  nav ul{
   width: 60%;
@@ -218,28 +212,6 @@ footer nav li a {
   fill: white;
 }
 
-@media only screen and (max-width: 560px){
-  header nav ul{
-    width: 90%;
-    padding: 0;
-  }
-
-  header h1 img{
-    width: 100%;
-  }
-
-  nav ul {
-    width: 95%;
-    padding: 10px;
-    margin-left: 0;
-    margin-right: 0;
-    }
-
-  .redes_sociales .redes{
-    flex-direction: column;
-  }
-}
-
 .crear_incidencia{
   background-color: #ED4167;
   border-radius: 100%;
@@ -264,6 +236,39 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 input[type=number] { -moz-appearance:textfield; }
+
+
+@media only screen and (max-width: 560px){
+  header nav ul{
+    width: 90%;
+    padding: 0;
+  }
+
+  header h1 img{
+    width: 100%;
+  }
+
+  nav ul {
+    width: 95%;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    }
+
+  .redes_sociales .redes{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 560px){
+  .navbar1{
+    position: fixed;
+    top: 0;
+    z-index: 99999999;
+    background-color: white;
+    width: 100%;
+  }
+}
 
 
   /* MODAL 1 */
