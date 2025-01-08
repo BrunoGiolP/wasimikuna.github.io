@@ -577,7 +577,7 @@ select{
     background-color: #ed4167 !important;
   }
 
-  .tres step2::after{
+  .tres .step2::after{
     background-color: #ed4167 !important;
   }
 
