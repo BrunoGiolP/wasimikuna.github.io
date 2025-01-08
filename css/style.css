@@ -124,6 +124,10 @@ footer .copywrite{
   padding: 20px;
 }
 
+footer nav li a {
+  color: #5B5B5B;
+}
+
 .botones{
   position: fixed;
   bottom: 40px;
