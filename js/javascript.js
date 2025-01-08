@@ -145,7 +145,7 @@ function detalle_busqueda_incidencia(){
 
 window.onscroll = function() {
    console.log(window.scrollY);
-   var nav = document.getElementById('nav');
+   var nav = document.getElementById('home');
    if ( window.scrollY > 100 ) {
        nav.classList.add("navbar1");
    } else {
