@@ -80,6 +80,11 @@ body{
   color: #ED4167;
 }
 
+.redes_sociales .redes{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .mapa{
   display: flex;
   margin-top: 50px;
@@ -229,6 +234,10 @@ footer nav li a {
     margin-left: 0;
     margin-right: 0;
     }
+
+  .redes_sociales .redes{
+    flex-direction: column;
+  }
 }
 
 .crear_incidencia{
