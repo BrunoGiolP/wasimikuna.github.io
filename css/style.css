@@ -128,7 +128,7 @@ footer .copywrite{
   position: fixed;
   bottom: 40px;
   right: 20px;
-  z-index: 999;
+  z-index: 99999999;
   animation: boton_alerta2 2s infinite; 
 }
 
