@@ -109,11 +109,6 @@ function reinicio() {
    tipo_otros.classList.add("otros_activada");
  }
 
-
-
-
-
-
 function resultado_busqueda(){
    var detalle_busqueda_incidencia = document.getElementById("detalle_busqueda_incidencia");
    var buscar_documento = document.getElementById("buscar_documento");
@@ -121,7 +116,6 @@ function resultado_busqueda(){
    buscar_documento.classList.remove("activo");
    resultado_busqueda.classList.add("activo");
    detalle_busqueda_incidencia.classList.remove("activo");
-
 }
 
 function salir_bsuqueda(){
@@ -131,7 +125,6 @@ function salir_bsuqueda(){
    buscar_documento.classList.add("activo");
    resultado_busqueda.classList.remove("activo");
    detalle_busqueda_incidencia.classList.remove("activo");
-
 }
 
 function detalle_busqueda_incidencia(){
