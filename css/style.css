@@ -57,9 +57,6 @@ body{
   height: 70vh;
 }
 
-.redes_sociales{
-  scroll-margin-top: 400px;
-}
 
 .redes_sociales img{
   width: 100%;
@@ -84,7 +81,6 @@ body{
 }
 
 .mapa{
-  scroll-margin-top: 400px;
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -272,6 +268,14 @@ input[type=number] { -moz-appearance:textfield; }
     z-index: 999;
     background-color: white;
     width: 100%;
+  }
+
+  .redes_sociales{
+    scroll-margin-top: 400px;
+  }
+
+  .mapa{
+    scroll-margin-top: 400px;
   }
 }
 
