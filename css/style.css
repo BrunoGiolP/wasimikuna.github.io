@@ -818,8 +818,8 @@ select{
 }
 
 .detalle_registro div{
-  width: 80%;
-  margin: 5px auto;
+  margin: 5px;
+  margin-left: 0;
 }
 
 .detalle_registro div:nth-child(2n-1){
