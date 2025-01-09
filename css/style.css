@@ -819,8 +819,9 @@ select{
 
 .detalle_registro div{
   width: 80%;
-  margin: auto;
+  margin: 5px auto;
 }
+
 .detalle_registro div:nth-child(2n-1){
   font-weight: bold;
 }
