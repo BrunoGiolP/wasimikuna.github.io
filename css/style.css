@@ -795,3 +795,8 @@ select{
   right: -15px;
 }
 
+/* MDOAL DETALLE INCIDENCIA */
+.detalle_busqueda_incidencia .modal-header{
+  display: flex;
+}
+
