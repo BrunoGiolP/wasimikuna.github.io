@@ -800,3 +800,8 @@ select{
   display: flex;
 }
 
+.detalle_busqueda_incidencia .modal-title .return{
+  padding-right: 20px;
+  cursor: pointer;
+}
+
