@@ -813,4 +813,14 @@ select{
     "T3 D3"
     "T4 D4"
     "T5 D5";
+    width: 80%;
+    margin: auto;
+}
+
+.detalle_registro div{
+  width: 80%;
+  margin: auto;
+}
+.detalle_registro div:nth-child(2n-1){
+  font-weight: bold;
 }
