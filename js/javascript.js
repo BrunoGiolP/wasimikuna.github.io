@@ -136,6 +136,15 @@ function detalle_busqueda_incidencia(){
    detalle_busqueda_incidencia.classList.add("activo");
 }
 
+function salir_detalle(){
+   var detalle_busqueda_incidencia = document.getElementById("detalle_busqueda_incidencia");
+   var buscar_documento = document.getElementById("buscar_documento");
+   var resultado_busqueda = document.getElementById("resultado_busqueda");
+   buscar_documento.classList.remove("activo");
+   resultado_busqueda.classList.add("activo");
+   detalle_busqueda_incidencia.classList.remove("activo");
+}
+
 window.onscroll = function() {
    console.log(window.scrollY);
    var nav = document.getElementById('home');
