@@ -796,7 +796,7 @@ select{
 }
 
 /* MDOAL DETALLE INCIDENCIA */
-.detalle_busqueda_incidencia .modal-header{
+.detalle_busqueda_incidencia .modal-title{
   display: flex;
 }
 
