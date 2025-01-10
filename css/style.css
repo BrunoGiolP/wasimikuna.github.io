@@ -23,6 +23,10 @@ body{
   padding: 20px;
 }
 
+h1 img{
+  width: 20%;
+}
+
  nav{
   display: flex;
   justify-content: center;
