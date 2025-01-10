@@ -132,6 +132,7 @@ footer .copywrite{
 
 footer nav{
   background-color: transparent;
+  z-index: 999;
 }
 
 footer nav li{
@@ -272,7 +273,7 @@ input[type=number] { -moz-appearance:textfield; }
     width: 75%;
     margin: auto;
   }
-  
+
   .navbar1{
     position: fixed;
     top: 0;
