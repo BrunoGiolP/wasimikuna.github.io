@@ -844,3 +844,11 @@ select{
   font-size: 1.5rem;
   margin-top: 25px;
 }
+
+.foto_evidencia{
+  margin-top: 20px;
+}
+
+.foto_evidencia img{
+  width: 100%;
+}
