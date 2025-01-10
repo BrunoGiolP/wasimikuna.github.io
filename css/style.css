@@ -38,6 +38,14 @@ h1 img{
   align-items: center;
 }
 
+.navbar1{
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  width: 100%;
+}
+
 
 
  nav ul{
@@ -274,12 +282,10 @@ input[type=number] { -moz-appearance:textfield; }
     margin: auto;
   }
 
-  .navbar1{
-    position: fixed;
-    top: 0;
-    z-index: 999;
-    background-color: white;
-    width: 100%;
+ 
+
+  .navbar1 nav{
+    display: none;
   }
 
   .redes_sociales{
