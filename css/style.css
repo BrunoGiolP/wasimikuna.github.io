@@ -57,10 +57,7 @@ h1 img{
   text-decoration: none;
 }
 
-#carouselExample{
-  width: 75%;
-  margin: auto;
-}
+
 
 .carousel img{
   height: 40vh;
@@ -271,6 +268,11 @@ input[type=number] { -moz-appearance:textfield; }
 }
 
 @media only screen and (min-width: 560px){
+  #carouselExample{
+    width: 75%;
+    margin: auto;
+  }
+  
   .navbar1{
     position: fixed;
     top: 0;
