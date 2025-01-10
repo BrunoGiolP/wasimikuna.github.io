@@ -828,3 +828,10 @@ select{
 .detalle_registro div:nth-child(2n-1){
   font-weight: bold;
 }
+
+.color_estado{
+  width: 10px;
+  height: 10px;
+  background-color: #FFBF00;
+  border-radius: 100%;
+}
