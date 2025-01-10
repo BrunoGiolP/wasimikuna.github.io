@@ -820,6 +820,10 @@ select{
     "T5 D5";
 }
 
+.D_3{
+  display: flex;
+}
+
 .detalle_registro div{
   margin: 5px;
   margin-left: 0;
