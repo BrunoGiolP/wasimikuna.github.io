@@ -839,3 +839,8 @@ select{
   background-color: #FFBF00;
   border-radius: 100%;
 }
+
+.h3, h3 {
+  font-size: 1.5rem;
+  margin-top: 25px;
+}
