@@ -805,6 +805,11 @@ select{
   cursor: pointer;
 }
 
+.detalle_busqueda_incidencia .modal-body{
+  padding: 35px;
+  padding-top: 0;
+}
+
 .detalle_registro{
   display: grid;
   grid-template-areas:
