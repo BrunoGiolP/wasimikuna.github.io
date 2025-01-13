@@ -305,6 +305,13 @@ input[type=number] { -moz-appearance:textfield; }
   .mapa{
     scroll-margin-top: 400px;
   }
+
+  .redes_sociales .redes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+  }
 }
 
 
