@@ -283,12 +283,12 @@ input[type=number] { -moz-appearance:textfield; }
     margin-right: 0;
     }
 
-.navbar1 nav {
-  display: none;
-}
+  .navbar1 nav {
+    display: none;
+  }
 
-  .redes_sociales .redes{
-    flex-direction: column;
+  .redes_sociales{
+    background-color: red;
   }
 
   .redes_sociales .redes {
