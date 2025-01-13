@@ -76,6 +76,10 @@ h1 img{
   width: 100%;
 }
 
+.eapps-instagram-feed-header-container{
+  display: none !important;
+}
+
 .redes_sociales h2{
   display: flex;
   justify-content: center;
