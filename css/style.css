@@ -294,7 +294,7 @@ input[type=number] { -moz-appearance:textfield; }
   .redes_sociales .redes {
     display: flex;
     justify-content: space-evenly;
-    width: 90%;
+    width: 90% !important;
     margin: auto;
   }
 }
