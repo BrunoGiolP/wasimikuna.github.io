@@ -80,6 +80,10 @@ h1 img{
   display: none !important;
 }
 
+.eapps-widget-toolbar{
+  display: none !important;
+}
+
 .redes_sociales h2{
   display: flex;
   justify-content: center;
