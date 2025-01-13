@@ -868,3 +868,15 @@ select{
 .foto_evidencia img{
   width: 100%;
 }
+
+/* LOGIN */
+
+.body_login{
+  background-color: #e62b77;
+  background-image: none !important;
+}
+
+#login .registro_login{
+  justify-content: center;
+}
+
