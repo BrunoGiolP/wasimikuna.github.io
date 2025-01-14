@@ -911,3 +911,12 @@ select{
   width: 100%;
 }
 
+
+/* DASHBOARD */
+
+
+
+.dashboard_incidencias ul#accordionSidebar {
+  background: #ed4167;
+}
+
