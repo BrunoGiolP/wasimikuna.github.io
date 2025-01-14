@@ -932,7 +932,6 @@ select{
 .tabs {
   display: flex;
   cursor: pointer;
-  margin-bottom: 1em;
 }
 .tab {
   padding: 1em;
