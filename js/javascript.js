@@ -155,7 +155,6 @@ window.onscroll = function() {
    }
 }
 
-
 // Initialization for ES Users
 import { Tab, initMDB } from "mdb-ui-kit";
 
