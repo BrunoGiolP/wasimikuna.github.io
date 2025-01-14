@@ -911,10 +911,7 @@ select{
   width: 100%;
 }
 
-
 /* DASHBOARD */
-
-
 
 .dashboard_incidencias #accordionSidebar {
   background-color: #ed4167;
@@ -963,4 +960,12 @@ select{
 
 .dashboard_incidencias table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable td:last-child, table.table-bordered.dataTable td:last-child {
   display: none;
+}
+
+.dashboard_incidencias tr th:nth-child(2n) {
+  width: 200px !important;
+}
+
+.dashboard_incidencias tr th:nth-child(3n) {
+  width: 600px !important;
 }
