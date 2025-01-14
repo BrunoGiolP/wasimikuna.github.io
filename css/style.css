@@ -929,3 +929,27 @@ select{
   width: 100%;
 }
 
+.tabs {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+.tab {
+  padding: 1em;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  margin-right: 0.5em;
+  transition: background-color 0.3s;
+}
+.tab.active {
+  background-color: #ddd;
+  font-weight: bold;
+}
+.tab-content {
+  display: none;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+.tab-content.active {
+  display: block;
+}
