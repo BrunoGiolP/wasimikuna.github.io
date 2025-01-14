@@ -767,7 +767,7 @@ select{
 
 
 .tipo_filter .danger span{
-  color: #ED4167;
+  color: #ed4167;
 }
 
 .tipo_filter div span {
@@ -895,5 +895,9 @@ select{
 
 #login .registro_login{
   justify-content: center;
+}
+
+.boton_ingresar{
+  background-color: #ed4167;
 }
 
