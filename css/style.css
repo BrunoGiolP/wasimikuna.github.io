@@ -945,6 +945,8 @@ select{
 .tab.active {
   font-weight: bold;
   height: 55px;
+  background-color: white;
+  border: 1px 1px 0 0 solid #ccc;
 }
 
 .tab-content {
