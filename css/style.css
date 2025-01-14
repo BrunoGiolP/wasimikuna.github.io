@@ -934,9 +934,12 @@ select{
   padding: 1em;
   background-color: #f1f1f1;
   border: 1px solid #ccc;
-  margin-right: 0.5em;
+  width: 200px;
+  display: flex;
   transition: background-color 0.3s;
+  justify-content: center;
 }
+
 .tab.active {
   background-color: #ddd;
   font-weight: bold;
