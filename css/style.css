@@ -929,26 +929,29 @@ select{
 .tabs {
   display: flex;
   cursor: pointer;
+  align-items: flex-end;
 }
+
 .tab {
   padding: 1em;
-  background-color: #f1f1f1;
-  border: 1px solid #ccc;
-  width: 200px;
-  display: flex;
-  transition: background-color 0.3s;
-  justify-content: center;
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    transition: background-color 0.3s;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .tab.active {
-  background-color: #ddd;
   font-weight: bold;
+  height: 55px;
 }
+
 .tab-content {
   display: none;
-  padding: 1em;
-  border: 1px solid #ccc;
 }
+
 .tab-content.active {
   display: block;
 }
