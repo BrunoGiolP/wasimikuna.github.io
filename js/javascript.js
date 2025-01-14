@@ -154,3 +154,9 @@ window.onscroll = function() {
        nav.classList.remove("navbar1");
    }
 }
+
+
+// Initialization for ES Users
+import { Tab, initMDB } from "mdb-ui-kit";
+
+initMDB({ Tab });
