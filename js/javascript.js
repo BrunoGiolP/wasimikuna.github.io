@@ -156,20 +156,3 @@ window.onscroll = function() {
 }
 
 
-// Seleccionar todas las pestañas y contenidos
-const tabs = document.querySelectorAll('.tab');
-const contents = document.querySelectorAll('.tab-content');
-
-// Añadir evento de clic a cada pestaña
-tabs.forEach(tab => {
-  tab.addEventListener('click', () => {
-    // Quitar la clase 'active' de todas las pestañas y contenidos
-    tabs.forEach(t => t.classList.remove('active'));
-    contents.forEach(content => content.classList.remove('active'));
-
-    // Añadir la clase 'active' a la pestaña y contenido correspondiente
-    tab.classList.add('active');
-    const targetId = tab.getAttribute('data-target');
-    document.getElementById(targetId).classList.add('active');
-  });
-});
