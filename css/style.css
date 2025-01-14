@@ -916,7 +916,9 @@ select{
 
 
 
-.dashboard_incidencias ul#accordionSidebar {
-  background: #ed4167;
+.dashboard_incidencias #accordionSidebar {
+  background-color: #ed4167;
+  background-image: none;
+  
 }
 
