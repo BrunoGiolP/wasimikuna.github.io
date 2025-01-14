@@ -899,5 +899,10 @@ select{
 
 .boton_ingresar{
   background-color: #ed4167;
+  border: 0;
+}
+
+.boton_ingresar:hover{
+  background-color: #ba2e4c;
 }
 
