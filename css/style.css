@@ -27,7 +27,7 @@ h1 img{
   width: 15%;
 }
 
- nav{
+#inicio nav{
   display: flex;
   justify-content: center;
   background: #e62b77;
@@ -38,7 +38,7 @@ h1 img{
   align-items: center;
 }
 
-.navbar1{
+#inicio .navbar1{
   position: fixed;
   top: 0;
   z-index: 999;
@@ -48,19 +48,19 @@ h1 img{
 
 
 
- nav ul{
+#inicio nav ul{
   width: 45%;
   display: flex;
   justify-content: space-between;
   margin: 50px;
 }
 
- nav li{
+#inicio nav li{
   list-style: none;
   color: white;
 }
 
- nav li a{
+#inicio nav li a{
   color: white;
   text-decoration: none;
 }
@@ -130,36 +130,36 @@ a[href^="https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_
   width: 100%;
 }
 
-footer{
+#inicio footer{
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-footer div{
+#inicio footer div{
   display: flex;
   justify-content: center;
   width: 30%;
   margin: auto;
 }
 
-footer .copywrite{
+#inicio footer .copywrite{
   background-color: #ED4167;
   color: white;
   width: 100%;
   padding: 20px;
 }
 
-footer nav{
+#inicio footer nav{
   background-color: transparent;
   z-index: 999;
 }
 
-footer nav li{
+#inicio footer nav li{
   color: #5B5B5B;
 }
 
-footer nav li a {
+#inicio footer nav li a {
   color: #5B5B5B;
 }
 
@@ -267,23 +267,23 @@ input[type=number] { -moz-appearance:textfield; }
 
 
 @media only screen and (max-width: 560px){
-  header nav ul{
+  #inicio header nav ul{
     width: 90%;
     padding: 0;
   }
 
-  header h1 img{
+  #inicio header h1 img{
     width: 60%;
   }
 
-  nav ul {
+  #inicio nav ul {
     width: 95%;
     padding: 10px;
     margin-left: 0;
     margin-right: 0;
     }
 
-  .navbar1 nav {
+    #inicio .navbar1 nav {
     display: none;
   }
 
