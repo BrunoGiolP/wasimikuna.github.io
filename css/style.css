@@ -907,3 +907,7 @@ select{
   background-color: #ba2e4c;
 }
 
+.login h1 img {
+  width: 100%;
+}
+
