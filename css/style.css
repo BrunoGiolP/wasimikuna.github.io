@@ -940,13 +940,15 @@ select{
     transition: background-color 0.3s;
     align-items: flex-end;
     justify-content: center;
+    background-color: white;
+    border: 1px 1px 0 0 solid #ccc;
 }
 
 .tab.active {
   font-weight: bold;
   height: 55px;
-  background-color: white;
-  border: 1px 1px 0 0 solid #ccc;
+  color: #ed4167;
+  font-weight: bold;
 }
 
 .tab-content {
