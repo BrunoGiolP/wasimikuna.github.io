@@ -952,3 +952,11 @@ select{
 .tab-content.active {
   display: block;
 }
+
+.dashboard_incidencias table thead{
+  background: #ed4167;
+}
+
+.dashboard_incidencias table thead tr th{
+  color: white;
+}
