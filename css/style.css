@@ -900,6 +900,7 @@ select{
 .boton_ingresar{
   background-color: #ed4167;
   border: 0;
+  font-weight: bolder;
 }
 
 .boton_ingresar:hover{
