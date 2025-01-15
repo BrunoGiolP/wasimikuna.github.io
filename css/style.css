@@ -1027,6 +1027,9 @@ select{
 }
 
 .dashboard_incidencias select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     background-position: calc(100% - 5px) 50%;
     width: 80px;
     height: 40px;
