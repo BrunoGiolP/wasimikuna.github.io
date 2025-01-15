@@ -1010,6 +1010,10 @@ select{
   color: white;
 }
 
+.dashboard_incidencias table  tr th{
+  color: white;
+}
+
 .dashboard_incidencias table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable td:last-child, table.table-bordered.dataTable td:last-child {
   display: none;
 }
