@@ -1057,3 +1057,13 @@ select{
   border-radius: 0 0 10px 10px;
   margin-bottom: 50px;
 }
+
+.dashboard_incidencias #search-input {
+  height: 40px;
+  width: 500px;
+  border-radius: 10px;
+  border: 0;
+  padding-left: 20px;
+  box-shadow: 4px 6px 14px 0px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+}
