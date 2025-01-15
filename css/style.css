@@ -1010,7 +1010,7 @@ select{
   color: white;
 }
 
-.dashboard_incidencias table  tr th{
+.dashboard_incidencias table tbody tr th{
   color: white;
 }
 
