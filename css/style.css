@@ -913,22 +913,22 @@ select{
 
 /* DASHBOARD */
 
-.search-container {
+.dashboard_incidencias .search-container {
   margin-bottom: 10px;
 }
-table {
+.dashboard_incidencias table {
   width: 100%;
   border-collapse: collapse;
 }
-th, td {
+.dashboard_incidencias th, td {
   border: 1px solid #ccc;
   padding: 8px;
   text-align: left;
 }
-th {
-  background-color: #f4f4f4;
+.dashboard_incidencias th {
+  background-color: #ed4167;
 }
-.hidden {
+.dashboard_incidencias .hidden {
   display: none;
 }
 
