@@ -504,6 +504,26 @@ input[type=number] { -moz-appearance:textfield; }
     background-color: transparent;
 }
 
+@media only screen and (max-width:420px){
+  .upload {
+    padding: 30px;
+  }
+  #uno .tipologia .calidad{
+    width: 100px;
+    height: 100px;
+  }
+
+  #uno .tipologia .salud{
+    width: 100px;
+    height: 100px;
+  }
+
+  #uno .tipologia .otros{
+    width: 100px;
+    height: 100px;
+  }
+}
+
 /* MODAL 2 */
 
 .modal-content{
