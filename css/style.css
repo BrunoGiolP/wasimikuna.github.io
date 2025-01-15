@@ -1002,3 +1002,9 @@ select{
 .dashboard_incidencias tr th:nth-child(3n) {
   width: 600px !important;
 }
+
+.dashboard_incidencias select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
