@@ -1047,14 +1047,12 @@ select{
   justify-content: space-between;
 }
 
-.dashboard_incidencias table{
-  -webkit-box-shadow: 9px 10px 50px 0px rgba(0,0,0,0.23);
-  -moz-box-shadow: 9px 10px 50px 0px rgba(0,0,0,0.23);
-  box-shadow: 9px 10px 50px 0px rgba(0,0,0,0.23);
-}
-
 .dashboard_incidencias .tab-contents {
   background: white;
   padding: 20px;
   border: 1px solid #ccc;
+  -webkit-box-shadow: 9px 10px 50px 0px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 9px 10px 50px 0px rgba(0, 0, 0, 0.23);
+  box-shadow: 9px 10px 50px 0px rgba(0, 0, 0, 0.23);
+  border-radius: 0 0 10px 10px;
 }
