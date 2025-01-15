@@ -1055,4 +1055,5 @@ select{
   -moz-box-shadow: 9px 10px 50px 0px rgba(0, 0, 0, 0.23);
   box-shadow: 9px 10px 50px 0px rgba(0, 0, 0, 0.23);
   border-radius: 0 0 10px 10px;
+  margin-bottom: 50px;
 }
