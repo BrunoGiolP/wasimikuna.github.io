@@ -1036,3 +1036,7 @@ select{
     border-radius: 15px;
     padding-left: 10px;
 }
+
+.dashboard_incidencias .search-container{
+  margin-bottom: 40px;
+}
