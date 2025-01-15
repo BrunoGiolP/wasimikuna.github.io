@@ -522,6 +522,11 @@ input[type=number] { -moz-appearance:textfield; }
     width: 100px;
     height: 100px;
   }
+
+  #uno{
+    width: 90% !important;
+    left: 5% !important;
+  }
 }
 
 /* MODAL 2 */
