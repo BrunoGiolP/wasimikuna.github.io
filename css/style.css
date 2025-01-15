@@ -1040,3 +1040,9 @@ select{
 .dashboard_incidencias .search-container{
   margin-bottom: 40px;
 }
+
+.dashboard_incidencias table{
+  -webkit-box-shadow: 9px 10px 50px 0px rgba(0,0,0,0.23);
+  -moz-box-shadow: 9px 10px 50px 0px rgba(0,0,0,0.23);
+  box-shadow: 9px 10px 50px 0px rgba(0,0,0,0.23);
+}
