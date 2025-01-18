@@ -292,6 +292,10 @@ input[type=number] { -moz-appearance:textfield; }
   #inicio h2{
     flex-direction: column;
   }
+
+  #carouselExample .b-1{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 560px){
@@ -305,7 +309,7 @@ input[type=number] { -moz-appearance:textfield; }
     scroll-margin-top: 400px;
   }
 
-  #carouselExample b-2{
+  #carouselExample .b-2{
     display: none;
   }
 
