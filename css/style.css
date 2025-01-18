@@ -305,6 +305,10 @@ input[type=number] { -moz-appearance:textfield; }
     scroll-margin-top: 400px;
   }
 
+  #carouselExample b-2{
+    display: none;
+  }
+
   
 }
 
