@@ -95,7 +95,8 @@ a[href^="https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_
     font-weight: bold;
 }
 
-.redes_sociales h2 span{
+#inicio h2 span{
+  margin-left: 8px;
   color: #ED4167;
 }
 
@@ -117,10 +118,6 @@ a[href^="https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_
   align-items: center;
   margin-bottom: 40px;
   margin-top: 40px;
-}
-
-.mapa h2 span{
-  color: #ED4167;
 }
 
 .mapa iframe{
