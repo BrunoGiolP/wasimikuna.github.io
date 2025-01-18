@@ -67,9 +67,6 @@ h1 img{
 
 
 
-.carousel img{
-  height: 40vh;
-}
 
 
 .redes_sociales img{
@@ -296,10 +293,7 @@ input[type=number] { -moz-appearance:textfield; }
 }
 
 @media only screen and (min-width: 560px){
-  #carouselExample{
-    width: 75%;
-    margin: auto;
-  }
+
 
   .redes_sociales{
     scroll-margin-top: 400px;
