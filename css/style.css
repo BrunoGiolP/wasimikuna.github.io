@@ -158,11 +158,6 @@ a[href^="https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_
   color: #5B5B5B;
 }
 
-.contFooter{
-  display: flex;
-  justify-content: space-between;
-}
-
 .botones{
   position: fixed;
   bottom: 40px;
